@@ -3,5 +3,6 @@ let login = require('../controllers/login.js');
 
 module.exports = function(app){
   app.get('/',index.home);
-  app.get('/login',login.login);
+  app.get('/login',index.login);
+
 }

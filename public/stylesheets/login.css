@@ -4,10 +4,12 @@ body{
 /* Login Section */
 .login-container{
   position:absolute;
+  left:calc(50% - 150px);
+  top: calc(50% - 125px);
   width:300px;
   height:350px;
   background: #3E4651;
-  background:#2C82C9;
+  /* background:#2C82C9; */
   border-radius:20px;
 }
 .login-container input{
