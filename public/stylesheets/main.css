@@ -60,7 +60,8 @@ nav {
 }
 
 input[type=text] {
-    width: 130px;
+    width: 80%;
+    height: 15px;
     border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
@@ -70,11 +71,24 @@ input[type=text] {
     padding: 12px 20px 12px 40px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
+    grid-column: 2/5;
 }
 
 input[type=text]:focus {
     width: 100%;
 }
+.banner{
+  height: 500px;
+  width: auto;
+  display: flex;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(100px, auto);
+}
+#banner{
+  height: 100%;
+  width: 100%;
+}
+
 
 html{
   font-family: arial;
