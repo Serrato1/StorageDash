@@ -1,9 +1,9 @@
 let knex = require('../db/knex.js');
 module.exports = {
   home: function(req,res){
-    res.render('index',{login: false});
+    res.render('index',{login: false, signup: false});
   },
-  login: function(req,res){
-    res.render('index',{login:true})
+  signup: function(req,res){
+    res.render('index',{login:false,signup:true})
   }
 }

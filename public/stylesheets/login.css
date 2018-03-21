@@ -5,12 +5,13 @@ body{
 .login-container{
   position:absolute;
   left:calc(50% - 150px);
-  top: calc(50% - 125px);
+  top: calc(50% - 186px);
   width:300px;
   height:350px;
   background: white;
   /* background:#2C82C9; */
   border-radius:20px;
+  opacity:.95;
   z-index: 2;
 }
 .login-container input{
@@ -20,6 +21,7 @@ body{
   width:200px;
   height:30px;
   margin-left: 50px;
+  border-bottom: 2px #3CCA3F solid;
 }
 
 .value-inputs{
