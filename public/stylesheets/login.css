@@ -11,6 +11,7 @@ body{
   background: #3E4651;
   /* background:#2C82C9; */
   border-radius:20px;
+  opacity:.95;
 }
 .login-container input{
   margin-top:20px;

@@ -3,11 +3,9 @@
   <head>
     <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/login.css">
-
     </script>
     <meta charset="utf-8">
     <title></title>
-
   </head>
   <body>
     <header>
@@ -19,28 +17,42 @@
         <input class="nav-searchbar"type="text" name="search" placeholder="Location">
       </form>
       <div class="link2">
-      <a href="#" class="navLinks">About</a>
+        <a href="/auth/listings" class="navLinks">Listings</a>
       </div>
       <div class="/signup">
-      <a href="#" class="navLinks">Sign Up</a>
+        <a href="/signup" class="navLinks">Sign Up</a>
       </div>
       <div class="link4">
-      <a href="/login" class="navLinks">Login</a>
+        <a href="/login" class="navLinks">Login</a>
       </div>
     </nav>
   </header>
-<<<<<<< HEAD
+
   <% if(login){ %>
     <form class="login-container" action="/login" method="post">
       <div class="value-inputs">
+        <i class="fa fa-exit"></i>
         <h2>LOGIN</h2>
-        <input type="" name="user_name" value="" placeholder="example@example.com"><br>
-        <input type="" name="user_name" value="" placeholder="**********"><br>
+        <input type="email" name="email" value="" placeholder="example@example.com"><br>
+        <input type="password" name="user_name" value="" placeholder="**********"><br>
         <input type="submit" name="submit" value="LOGIN">
+      </div><br>
+      <a class="link-tag" href="/signup">Signup Here</a>
+    </form>
+  <% }else if(signup){%>
+    <form class="login-container" action="/login" method="post">
+      <div class="value-inputs">
+        <i class="fa fa-exit"></i>
+        <h2>SIGNUP</h2>
+        <input type="email" name="email" value="" placeholder="example@example.com"><br>
+        <input type="password" name="password" value="" placeholder="new password"><br>
+        <input type="password" name="" value="" placeholder="confirm password"><br>
+        <input type="submit" name="submit" value="SIGNUP"><br>
+        <a class="link-tag" href="/login">Login Here</a>
       </div>
     </form>
-  <% } %>
-=======
+    <%}%>
+
   <div class="banner">
       <img id="banner"src="images/movings.jpeg" alt="">
       <div class="">
@@ -49,10 +61,5 @@
         </form>
       </div>
     </div>
->>>>>>> abffeba12841807ee3e674a517ef05e6246fd704
-
-
-
-
   </body>
 </html>

@@ -1,0 +1,72 @@
+.listing-container{
+  width:100%;
+  display:grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-auto-rows: 250px ;
+  font-family: arial;
+}
+.listing{
+  grid-column: span 2;
+  position:relative;
+  width:90%;
+  margin-left:5%;
+  height:250px;
+  background: #198EFC;
+  color:white;
+  text-align:center;
+  /* text-transform: capitalize; */
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 150px 100px;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cost{
+  width:100%;
+  height:30px;
+  font-size:25px;
+  position:absolute;
+  bottom: 110px;
+  color:white;
+  background:black;
+  opacity:.7;
+}
+.img{
+  width:100%;
+  height:140px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.details{
+  color:white;
+  text-decoration: none;
+}
