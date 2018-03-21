@@ -10,12 +10,14 @@ exports.up = function(knex, Promise) {
     table.string('storage_type');
     table.string('size');
     table.string('access_method');
-    table.string('location');
-    table.string('features');
+    table.string('street_address');
+    table.string('city');
+    table.string('state');
+    table.string('zip');
+    table.string('storage_features');
     table.string('photos');
     table.string('pay_status');
     table.timestamps('true', 'true')
-
     })
 };
 
