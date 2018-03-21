@@ -6,7 +6,10 @@ exports.up = function(knex, Promise) {
     table.string('email');
     table.string('password');
     table.string('phone');
-    table.string('address');
+    table.string('street_address');
+    table.string('city');
+    table.string('state');
+    table.string('zip');
     table.string('is_verified');
     table.string('avatar');
     table.timestamps('true', 'true')

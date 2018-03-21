@@ -7,7 +7,7 @@
   opacity: .8;
 }
 nav{
-
+text-decoration: none;
 }
 nav a{
 
@@ -71,8 +71,6 @@ input[type=submit] {
 
 
 }
-
-
 .space-container{
   position:absolute;
   background-color: white;
@@ -83,5 +81,8 @@ input[type=submit] {
 }
 .storage-match{
   position: relative;
+<<<<<<< HEAD
+=======
   color: #4D4B4B;
+>>>>>>> 3997302f3bc24c3e30b0d2424a74fd21552540d6
 }
