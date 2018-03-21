@@ -8,10 +8,14 @@ body{
   top: calc(50% - 125px);
   width:300px;
   height:350px;
-  background: #3E4651;
+  background: white;
   /* background:#2C82C9; */
   border-radius:20px;
+<<<<<<< HEAD
   opacity:.95;
+=======
+  z-index: 2;
+>>>>>>> 17494d1621730826a2064b0637f6f4913f62742d
 }
 .login-container input{
   margin-top:20px;
