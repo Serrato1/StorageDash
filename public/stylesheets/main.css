@@ -1,4 +1,11 @@
-
+.overlay{
+  position:absolute;
+  width:100%;
+  height:800px;
+  background:black;
+  z-index: 2;
+  opacity: .8;
+}
 nav{
 
 }
