@@ -8,9 +8,10 @@ body{
   top: calc(50% - 125px);
   width:300px;
   height:350px;
-  background: #3E4651;
+  background: white;
   /* background:#2C82C9; */
   border-radius:20px;
+  z-index: 2;
 }
 .login-container input{
   margin-top:20px;
