@@ -1,5 +1,5 @@
 nav{
-
+text-decoration: none;
 }
 nav a{
 
@@ -63,8 +63,6 @@ input[type=submit] {
 
 
 }
-
-
 .space-container{
   position:absolute;
   background-color: white;
@@ -75,6 +73,4 @@ input[type=submit] {
 }
 .storage-match{
   position: relative;
-  color: #4D4B4B;
-
 }
