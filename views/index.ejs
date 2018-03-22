@@ -49,19 +49,24 @@
        <input type="" name="password" value="" placeholder="**********"><br>
        <input type="submit" name="submit" value="LOGIN">
      </div>
-     <a href="/signup">Signup</a>
+     <a class="login-link" href="/signup">Signup</a>
    </form>
    <%}else if(signup){ %>
-     <form class="login-container" action="/login" method="post">
+     <form class="signup-container" action="/login" method="post">
        <a href="/" class="exit">X</a>
        <div class="value-inputs">
          <h2>SIGNUP</h2>
-         <input type="" name="user_name" value="" placeholder="email"><br>
-         <input type="" name="user_name" value="" placeholder="password"><br>
-         <input type="" name="user_name" value="" placeholder="confirm password"><br>
-         <input type="submit" name="submit" value="SIGNUP">
+         <input type="email" name="email" value="" placeholder="Email">
+         <input type="text" name="phone" value="" placeholder="Phone Number">
+         <input type="password" name="password" value="" placeholder="password">
+         <input type="text" name="address" value="" placeholder="Address">
+         <input type="password" name="confirm_password" value="" placeholder="Confirm Password">
+         <input type="text" name="user_name" value="" placeholder="City">
+         <input type="text" name="user_name" value="" placeholder="State">
+         <br />
+         <input class="submit-button" type="submit" name="submit" value="SIGNUP">
        </div>
-       <a href="/login">Login</a>
+       <a class="login-link" href="/login">Login</a>
      </form>
     <%} %>
 

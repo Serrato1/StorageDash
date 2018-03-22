@@ -7,7 +7,16 @@ module.exports = {
       res.render('index',{loggedIn: false, login: false, signup: false});
     }
   },
+  login: function(req,res){
+    if(req.session.user){
+      res.redirect('/auth/listings');
+    }else{
+      console.log(req.session);
+      res.render('index',{loggedIn: false,login : true});
+    }
+  },
   signup: function(req,res){
     res.render('index',{loggedIn: false,login : false, signup : true});
-  }
+  },
+
 }

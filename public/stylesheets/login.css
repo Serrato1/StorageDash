@@ -29,8 +29,13 @@ body{
 }
 .value-inputs h2{
   font-size:30px;
-  color:white;
+  color:#3CCA3F;
   text-align:center;
+}
+.login-link{
+  margin-left:50px;
+  text-decoration:underline;
+  color:black;
 }
 .exit{
   position:absolute;
@@ -43,3 +48,29 @@ body{
   outline:none;
 }
 /* -------- */
+.signup-container{
+  position:absolute;
+  left:calc(50% - 300px);
+  top: calc(50% - 186px);
+  width:600px;
+  height:auto;
+  background: white;
+  /* background:#2C82C9; */
+  border-radius:20px;
+  opacity:.95;
+  z-index: 2;
+}
+.signup-container input{
+  display:inline-block;
+  margin-top:20px;
+  border:none;
+  outline:none;
+  width:200px;
+  height:30px;
+  margin-left: 50px;
+  border-bottom: 2px #3CCA3F solid;
+}
+input.submit-button{
+  width: 450px;
+  margin-left:calc(50% - 225px)
+}
