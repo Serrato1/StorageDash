@@ -9,6 +9,8 @@ module.exports = function(app){
   app.post('/login',login.authenticate);
   app.get('/signup',index.signup);
 
+  app.get('/logout',login.logout);
+
   app.use('/auth', validate)
   app.get('/auth/listings', listings.home)
 }

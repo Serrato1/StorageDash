@@ -1,88 +1,101 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
-
-.logo {
-  color: #33cc33;
-  font-family:Ubuntu;
-}
-.overlay{
-  position:absolute;
-  width:100%;
-  height:800px;
-  background:black;
-  z-index: 2;
-  opacity: .8;
-}
-nav {
-text-decoration: none;
-height:70px;
-}
-.navLinks{
-  color: #33cc33;
-}
-.link1{
-  float:left;
-  font-size:30px;
-}
-
-.link2, .link3, .link4{
-  margin-right: 2em;
-}
-#banner{
-  height: 90%;
-  width: 100%;
-}
-.banner{
-  height:600px;
-  position: relative;
-}
-.banner-row{
-  height:600px;
-  position: relative;
-  width: auto;
-  align-items: center;
-  background-image:url('https://static1.squarespace.com/static/570f94d4e707ebe730cbb81d/t/595cc0da440243e15ea3114f/1499250111007/?format=original');
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-.space-select{
-  width: 100%;
-  height: 2em;
-}
-input[type=text] {
-    padding:5px;
-    border:2px solid #ccc;
-    width: 100%;
-}
-
-input[type=text]:focus {
-    border-color:#33cc33;
-}
-
-input[type=submit] {
-    cursor:pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    margin-top:2em;
-    background-color: #33cc33;
-    width: 10em;
-    color: white;
-    font-size: 18px;
-    width: 100%
-}
 .space-container h1{
-  color: #4D4B4B;
+ color: #4D4B4B;
 
 
 }
 .space-container{
-  position:absolute;
-  background-color: white;
-  padding: 20px;
-  padding-bottom: 30px;
-  margin-left: 5em;
-  border-radius: 5px;
+ position:absolute;
+ background-color: white;
+ padding: 20px;
+ padding-bottom: 30px;
+ margin-left: 5em;
+ border-radius: 5px;
+}
+
+.overlay{
+ position:absolute;
+ width:100%;
+ height:800px;
+ background:black;
+ z-index: 2;
+ opacity: .8;
+}
+nav{
+text-decoration: none;
+background-color: white;
+}
+nav a{
+
+}
+.navLinks{
+ color: #33cc33;
+}
+.link1{
+ float:left;
+ font-size:30px;
+}
+
+.link2, .link3, .link4{
+ margin-right: 2em;
+}
+#banner{
+ height: 90%;
+ width: 100%;
+}
+.banner{
+ height:600px;
+ position: relative;
+}
+.banner-row{
+ height:600px;
+ position: relative;
+ width: auto;
+ align-items: center;
+ background-image:url('https://fthmb.tqn.com/vJpi-7QdfFZV_lDCMhGeweLDQM0=/3864x2577/filters:no_upscale():fill(transparent,1)/entrepreneurs-looking-at-creative-office-space-175138263-578e68cf3df78c09e947ec60.jpg');
+ background-repeat: no-repeat;
+ background-size: 100%;
+}
+.space-select{
+ width: 100%;
+ height: 2em;
+}
+input[type=text] {
+   padding:5px;
+   border:2px solid #ccc;
+   width: 100%;
+}
+
+input[type=text]:focus {
+   border-color:#33cc33;
+}
+
+input[type=submit] {
+   cursor:pointer;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   margin-top:2em;
+   background-color: #33cc33;
+   width: 10em;
+   color: white;
+   font-size: 18px;
+   width: 100%
+}
+.space-container h1{
+ color: #4D4B4B;
+
+
+}
+.space-container{
+ position:absolute;
+ background-color: white;
+ padding: 20px;
+ padding-bottom: 30px;
+ margin-left: 5em;
+ border-radius: 5px;
 }
 .storage-match{
-  position: relative;
-  color: #4D4B4B;
+ position: relative;
+
+ color: #4D4B4B;
+
 }

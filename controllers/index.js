@@ -8,10 +8,6 @@ module.exports = {
     }
   },
   signup: function(req,res){
-    if(req.session.user){
-      res.render('index',{loggedIn: true, login: false, signup: false});
-    }else{
-      res.render('index',{loggedIn: false, login: false, signup: false});
-    }
+    res.render('index',{loggedIn: false,login : false, signup : true});
   }
 }
